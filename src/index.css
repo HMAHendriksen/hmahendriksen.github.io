@@ -7,8 +7,8 @@
 @layer base {
   :root {
     /* Main palette - soft teal/mint theme */
-    --background: 174 31% 82%;
-    --foreground: 182 62% 22%;
+    --background: 184 35% 84%;
+    --foreground: 183 62% 22%;
 
     --card: 174 31% 88%;
     --card-foreground: 191 83% 16%;
@@ -29,8 +29,8 @@
     --muted-foreground: 191 40% 35%;
 
     /* Pink accent */
-    --accent: 347 79% 80%;
-    --accent-foreground: 347 79% 30%;
+    --accent: 317 50% 84%;
+    --accent-foreground: 317 50% 30%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -42,10 +42,10 @@
     --radius: 1rem;
 
     /* Custom colors */
-    --heading: 182 62% 22%;
+    --heading: 183 62% 22%;
     --stat-number: 191 83% 25%;
-    --icon-bg: 347 79% 92%;
-    --icon-stroke: 347 79% 55%;
+    --icon-bg: 317 50% 92%;
+    --icon-stroke: 317 50% 55%;
 
     /* Typography */
     --font-heading: 'Montserrat', sans-serif;
