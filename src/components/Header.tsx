@@ -1,5 +1,6 @@
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import favicon from "/favicon.ico";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,24 +11,11 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-              <svg
-                className="w-6 h-6 text-primary"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <rect x="3" y="3" width="7" height="18" rx="1" />
-                <rect x="14" y="3" width="7" height="18" rx="1" />
-                <line x1="6.5" y1="7" x2="6.5" y2="7.01" />
-                <line x1="6.5" y1="11" x2="6.5" y2="11.01" />
-                <line x1="6.5" y1="15" x2="6.5" y2="15.01" />
-                <line x1="17.5" y1="7" x2="17.5" y2="7.01" />
-                <line x1="17.5" y1="11" x2="17.5" y2="11.01" />
-                <line x1="17.5" y1="15" x2="17.5" y2="15.01" />
-              </svg>
-            </div>
+            <img
+              src={favicon}
+              alt="Logo"
+              className="w-10 h-10"
+            />
           </div>
 
           {/* Desktop Navigation */}
