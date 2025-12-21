@@ -3,14 +3,14 @@ import heroIllustration from "@/assets/hero-illustration.png";
 const HeroSection = () => {
   return (
     <section className="pt-28 pb-16 md:pt-36 md:pb-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-24">
+      <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
-          <div className="animate-fade-up">
-            <h1 className="heading-primary text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
+          <div className="animate-fade-up text-center lg:text-left">
+            <h1 className="heading-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
               Informatievoorziening op de Geheugenpoli
             </h1>
-            <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+            <p className="text-muted-foreground text-base sm:text-lg md:text-xl leading-relaxed">
               Heleens onderzoek richt zich op het verbeteren van de informatievoorziening 
               tijdens het diagnostisch traject op de geheugenpoli met speciale aandacht 
               voor subjectieve cognitieve klachten. Het onderzoek richt zich op de informatie 
