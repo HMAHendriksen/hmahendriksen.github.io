@@ -8,7 +8,7 @@ const HeroSection = () => {
           {/* Text Content */}
           <div className="animate-fade-up text-center lg:text-left">
             <h1 className="heading-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
-              Informatievoorziening op de Geheugenpoli
+              Informatievoorziening op de geheugenpoli
             </h1>
             <p className="text-muted-foreground text-base sm:text-lg md:text-xl leading-relaxed">
               Heleens onderzoek richt zich op het verbeteren van de informatievoorziening 
